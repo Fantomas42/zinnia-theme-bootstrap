@@ -29,6 +29,8 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Topic :: Software Development :: Libraries :: Python Modules'],
 
+    install_requires=("django_apptemplates",),
+
     license=zinnia_bootstrap.__license__,
     include_package_data=True,
     zip_safe=False
